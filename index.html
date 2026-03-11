@@ -30,6 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -40,6 +42,16 @@
   ul.task-list{list-style: none;}
     </style>
 
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -168,12 +180,38 @@ a.black-link:hover {
   text-decoration: underline;
 }
 
+
+
 <!---
 a, a:visited {
   color: black;
   text-decoration: none; /* optional: remove underline */
 }
 --->
+</style>
+<style>
+  ol.publications > li {
+    margin-bottom: 0.75em;
+  }
+  ol.publications > li::marker {
+    content: counter(list-item) ".\00a0\00a0";
+  }
+</style>
+<style>
+  ul.pub-awards {
+  font-size: 0.85em;
+  margin-top: 0.15em;
+  margin-left: 0.15em;
+}
+</style>
+<style>
+  ul.publications {
+    padding-left: 40px;   /* adjust this value */
+  }
+
+  ul.publications > li {
+    margin-bottom: 0.75em;
+  }
 </style>
 <p><br/></p>
 <p style="text-align: center">
@@ -207,138 +245,185 @@ University</a>.
 class="email">yi-chun.akchen@ucl.ac.uk</a></strong></br></p>
 <hr />
 <div id="publications" class="section level4">
-<h4><span
-style="color:#646464;"><strong>Publications</strong></span></h4>
-<p><span style="color:#646464;"><em>Working Papers</em></span></p>
+<h4><strong>Publications</strong></h4>
 <!---
-* <a href="http://ssrn.com/abstract=3812654" target="_blank" class="black-link">**Assortment and Inventory Optimization for Size-Differentiated Products**</a></br>
-<span style="margin-left: 1em;">with Kaan Cakiroglu, Felipe Caro, and Jacob Feldman</span></br>
-<span style="margin-left: 1em;">Submitted</span>
+<span style="color:#505050;">*Working Papers*</span>
+
+
+<ol reversed start="2" class="publications">
+
+  <li>
+    <a href="http://ssrn.com/abstract=3812654" target="_blank" class="black-link">
+      **"Near-Optimal Service Recommendation under Queue-Dependent Acceptance"**
+    </a><br>
+    <span style="margin-left: 1em;">with Sena Bozkurt</span><br>
+    <span style="margin-left: 1em;">Submitted</span>
+  </li>
+  
+  <li>
+    <a href="http://ssrn.com/abstract=3812654" target="_blank" class="black-link">
+      **"Assortment and Inventory Optimization under the Consider-Fit-Then-Choose Model"**
+    </a><br>
+    <span style="margin-left: 1em;">with Kaan Cakiroglu, Felipe Caro, and Jacob Feldman</span><br>
+    <span style="margin-left: 1em;">Submitted</span>
+  </li>
+
+</ol>
 --->
-<ul>
-<li><a href="http://ssrn.com/abstract=3812654" target="_blank" class="black-link"><strong>Assortment
-Optimization under the Decision Forest Model</strong></a></br> <span
-style="margin-left: 1em;">with Velibor Mišić</span></br> <span
-style="margin-left: 1em;">Minor revision in <em>Manufacturing &amp;
-Service Operations Management</em></span></li>
-</ul>
-<p><span style="color:#646464;"><em>Refereed Journal
+<p><span style="color:#505050;"><em>Refereed Journal
 Papers</em></span></p>
-<ul>
-<li><a href="http://ssrn.com/abstract=4352043" target="_blank" class="black-link"><strong>Consider
-or Choose? The Role and Power of Consideration Sets</strong></a></br>
-<span style="margin-left: 1em;">with Dmitry Mitrofanov</span></br> <span
-style="margin-left: 1em;"><a
-href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.00442"
-target="_blank"><em>Management Science</em></a>
-(forthcoming)</span></br></span><font size="2">
-<ul>
-<li>Finalist, <em>Service Science Best Cluster Paper Competition</em>,
-INFORMS, 2024.</li>
-</ul></li>
+<!---
+<ol reversed start="7" class="publications">
+</ol>
+--->
+<ul class="publications">
+<li style="margin-bottom: 0.6em;">
+<a href="http://ssrn.com/abstract=4352043" target="_blank" class="black-link">
+<strong>Consider or Choose? The Role and Power of Consideration
+Sets</strong> </a><br> <span style="margin-left: 1.5em;">with Dmitry
+Mitrofanov</span><br> <span style="margin-left: 1.5em;">
+<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.00442" target="_blank">
+<em>Management Science</em> </a> (forthcoming) </span>
+<ul class="pub-awards">
+<li>
+Finalist, <em>Service Science Best Cluster Paper Competition</em>,
+INFORMS, 2024.
+</li>
 </ul>
-<p></font></p>
-<ul>
-<li><a href="http://ssrn.com/abstract=4646030" target="_blank" class="black-link"><strong>On
-Size Substitution and Its Role in Assortment and Inventory
-Planning</strong></a></br> <span style="margin-left: 1em;">with Felipe
-Caro</span></br> <span style="margin-left: 1em;"><a
-href="https://pubsonline.informs.org/doi/10.1287/msom.2023.0674"
-target="_blank"><em>Manufacturing &amp; Service Operations
-Management</em></a> (forthcoming)</br><font size="2">
-<ul>
-<li><a href="https://anderson-review.ucla.edu/if-shoe-shoppers-will-accept-a-half-size-difference-how-should-merchants-adjust-inventory/" target="_blank" class="black-link">Blog
-post in <em>UCLA Anderson Review</em></a></li>
-</ul></li>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="http://ssrn.com/abstract=4646030" target="_blank" class="black-link">
+<strong>On Size Substitution and Its Role in Assortment and Inventory
+Planning</strong> </a><br> <span style="margin-left: 1.5em;">with Felipe
+Caro</span><br> <span style="margin-left: 1.5em;">
+<a href="https://pubsonline.informs.org/doi/10.1287/msom.2023.0674" target="_blank">
+<em>Manufacturing &amp; Service Operations Management</em> </a>
+(forthcoming) </span>
+<ul class="pub-awards">
+<li>
+<a href="https://anderson-review.ucla.edu/if-shoe-shoppers-will-accept-a-half-size-difference-how-should-merchants-adjust-inventory/"
+             target="_blank" class="black-link"> Blog post in <em>UCLA
+Anderson Review</em> </a>
+</li>
 </ul>
-<p></font></p>
-<ul>
-<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3656704" target="_blank" class="black-link"><strong>Column-Randomized
-Linear Programs: Performance Guarantees and
-Applications</strong></a></br> <span style="margin-left: 1em;">with
-Velibor Mišić</span></br> <span style="margin-left: 1em;"><a
-href="https://pubsonline.informs.org/doi/abs/10.1287/opre.2020.0494"
-target="_blank"><em>Operations Research</em></a> (2025)</span>
-<font size="2"></li>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="http://ssrn.com/abstract=3812654" target="_blank" class="black-link">
+<strong>Assortment Optimization under the Decision Forest Model</strong>
+</a><br> <span style="margin-left: 1.5em;">with Velibor Mišić</span><br>
+<span style="margin-left: 1.5em;">
+<a href="http://ssrn.com/abstract=3812654" target="_blank">
+<em>Manufacturing &amp; Service Operations Management</em> </a>
+(forthcoming) </span>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3656704" target="_blank" class="black-link">
+<strong>Column-Randomized Linear Programs: Performance Guarantees and
+Applications</strong> </a><br> <span style="margin-left: 1.5em;">with
+Velibor Mišić</span><br> <span style="margin-left: 1.5em;">
+<a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.2020.0494" target="_blank">
+<em>Operations Research</em> </a> (2025) </span>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3376273" target="_blank" class="black-link">
+<strong>Decision Forest: A Nonparametric Approach to Modeling Irrational
+Choice</strong> </a><br> <span style="margin-left: 1.5em;">with Velibor
+Mišić</span><br> <span style="margin-left: 1.5em;">
+<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4256" target="_blank">
+<em>Management Science</em> </a> (2022) </span>
+<ul class="pub-awards">
+<li>
+<a href="https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Modeling-Irrational-Decisions" target="_blank" class="black-link">Blog
+post in <em>Management Science Review</em></a>
+</li>
+<li>
+Honorable Mention, <em>George Nicholson Student Paper Prize</em>,
+INFORMS, 2020.
+</li>
+<li>
+1st Place, <em>Decision Analysis Student Paper Award</em>, INFORMS,
+2019.
+</li>
+<li>
+2nd Place, <em>Jeff McGill Revenue Management and Pricing Student Paper
+Award</em>, INFORMS, 2019.
+</li>
+<li>
+Finalist, <em>Service Science Best Paper Award</em>, INFORMS, 2019.
+</li>
+<li>
+Spotlight Presentation, 2019 INFORMS Revenue Management and Pricing
+Conference.
+</li>
 </ul>
-<p></font></p>
-<ul>
-<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3376273" target="_blank" class="black-link"><strong>Decision
-Forest: A Nonparametric Approach to Modeling Irrational
-Choice</strong></a></br> <span style="margin-left: 1em;">with Velibor
-Mišić</span> </br> <span style="margin-left: 1em;"><a
-href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4256"
-target="_blank"><em>Management Science</em></a>
-(2022)</span><font size="2">
-<ul>
-<li><a href="https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Modeling-Irrational-Decisions" target="_blank" class="black-link">Blog
-post in <em>Management Science Review</em></a></li>
-<li>Honorable Mention, <em>George Nicholson Student Paper Prize</em>,
-INFORMS, 2020.</li>
-<li>1st Place, <em>Decision Analysis Student Paper Award</em>, INFORMS,
-2019.</li>
-<li>2nd Place, <em>Jeff McGill Revenue Management and Pricing Student
-Paper Award</em>, INFORMS, 2019.</li>
-<li>Finalist, <em>Service Science Best Paper Award</em>, INFORMS,
-2019.</li>
-<li>Spotlight Presentation, 2019 INFORMS Revenue Management and Pricing
-Conference.</li>
-</ul></li>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="DRL_event_driven.pdf" target="_blank" class="black-link">
+<strong>Deep Reinforcement Learning for Event-Driven Multi-Agent
+Decision Processes</strong> </a><br> <span style="margin-left: 1.5em;">
+with Kunal Menda, Justin Grana, James Bono, Brendan Tracey, Mykel
+Kochenderfer, and David Wolpert </span><br> <span
+style="margin-left: 1.5em;">
+<a href="https://ieeexplore.ieee.org/abstract/document/8419722" target="_blank">
+<em>IEEE Transactions on Intelligent Transportation Systems</em> </a>
+(2019) </span>
+</li>
+<li style="margin-bottom: 0.6em;">
+<a href="https://jair.org/index.php/jair/article/view/11063" target="_blank" class="black-link">
+<strong>Learning Discrete Bayesian Networks from Continuous
+Data</strong> </a><br> <span style="margin-left: 1.5em;"> with Tim
+Wheeler and Mykel Kochenderfer </span><br> <span
+style="margin-left: 1.5em;">
+<a href="https://www.jair.org/index.php/jair/article/view/11063" target="_blank">
+<em>Journal of Artificial Intelligence Research</em> </a> (2017) </span>
+</li>
 </ul>
-<p></font></p>
-<ul>
-<li><p><a href="DRL_event_driven.pdf" target="_blank" class="black-link"><strong>Deep
-Reinforcement Learning for Event-Driven Multi-Agent Decision
-Processes</strong></a></br> <span style="margin-left: 1em;">with Kunal
-Menda, Justin Grana, James Bono, Brendan Tracey, Mykel Kochenderfer, and
-David Wolpert</span></br> <span style="margin-left: 1em;"><a
-href="https://ieeexplore.ieee.org/abstract/document/8419722"
-target="_blank"><em>IEEE Transactions on Intelligent Transportation
-Systems</em></a> (2019)</a></span></p></li>
-<li><p><a href="https://jair.org/index.php/jair/article/view/11063" target="_blank" class="black-link"><strong>Learning
-Discrete Bayesian Networks from Continuous Data</strong></a></br> <span
-style="margin-left: 1em;">with Tim Wheeler and Mykel
-Kochenderfer</span></br> <span style="margin-left: 1em;"><a
-href="https://www.jair.org/index.php/jair/article/view/11063"
-target="_blank"><em>Journal of Artificial Intelligence Research</em></a>
-(2017)</span></p></li>
-</ul>
-<p><span style="color:#646464;"><em>Refereed Conference
+<p><span style="color:#505050;"><em>Refereed Conference
 Papers</em></span></p>
-<ul>
-<li><a href="reduced_discount_pomdp.pdf" target="_blank" class="black-link"><strong>Improving
-Offline Value-Function Approximations for POMDPs by Reducing Discount
-Factors</strong></a></br> <span style="margin-left: 1em;">with Mykel
-Kochenderfer and Matthijs Spaan</span></br>
-<span style="margin-left: 1em;"><a
-href="https://ieeexplore.ieee.org/document/8594418"
-target="_blank"><em>IEEE/RSJ International Conference on Intelligent
-Robots and Systems</em></a> (2018)</li>
+<ul class="publications">
+<li>
+<a href="reduced_discount_pomdp.pdf" target="_blank" class="black-link">
+<strong>“Improving Offline Value-Function Approximations for POMDPs by
+Reducing Discount Factors”</strong> </a><br> <span
+style="margin-left: 1.5em;"> with Mykel Kochenderfer and Matthijs Spaan
+</span><br> <span style="margin-left: 1.5em;">
+<a href="https://ieeexplore.ieee.org/document/8594418" target="_blank">
+<em>IEEE/RSJ International Conference on Intelligent Robots and
+Systems</em> </a> (2018) </span>
+</li>
 </ul>
-<p><span style="color:#646464;"><em>Other Publications</em></span></p>
-<ul>
-<li><a href="https://sustainability.atptour.com/2023/22-1" target="_blank" class="black-link"><strong>Clustering
-Our Challenger Tour</strong></a></br> <span
-style="margin-left: 1em;">with Onesun Steve Yoo and Association of
-Tennis Professionals (ATP)</span></br>
-<span style="margin-left: 1em;"><a
-href="https://sustainability.atptour.com/2023/1-1"
-target="_blank"><em>ATP 2023 Sustainability Report, Page 22</em></a>
-(2024)</li>
+<p><span style="color:#505050;"><em>Other Publications</em></span></p>
+<ul class="publications">
+<li>
+<a href="https://sustainability.atptour.com/2023/22-1" target="_blank" class="black-link">
+<strong>“Clustering Our Challenger Tour”</strong> </a><br> <span
+style="margin-left: 1.5em;"> with Onesun Steve Yoo and Association of
+Tennis Professionals (ATP) </span><br> <span
+style="margin-left: 1.5em;">
+<a href="https://sustainability.atptour.com/2023/1-1" target="_blank">
+<em>ATP 2023 Sustainability Report</em>, Page 22 </a> (2024) </span>
+</li>
 </ul>
 <!---
-***
-
-#### <span style="color:#646464;">**Teaching**
-
-* [**UCL School of Management**](https://www.mgmt.ucl.ac.uk){target="_blank"}</br>
-<span style="margin-left: 1em;">Decision Science (Term 2, 2026)</span></br>
-<span style="margin-left: 1em;">Statistics for Business Research (Term 1, 2023, 2024)</span></a>
+<span style="color:#646464;">*Doctoral Thesis*</span>
 
 
-* [**Decision Science**](https://www.ucl.ac.uk/module-catalogue/modules/decision-science/MSIN0042){target="_blank"}, UCL School of Management (2026).
-
-* [**Statistics for Business Research**](https://www.ucl.ac.uk/module-catalogue/modules/statistics-for-business-research/MSIN0154){target="_blank"}, UCL School of Management (2023, 2024).
+<ol reversed start="1" class="publications">
+  <li>
+  <a href="UCLA_thesis.pdf" target="_blank" class="black-link">
+    <strong>Prescribing for the Irrational: A Data-Driven Approach to Modeling Irrational Choice
+</strong>
+  </a><br>
+  <span style="margin-left: 1em;">
+    <a href="https://escholarship.org/uc/item/17r056j4" target="_blank">
+      University of California, Los Angeles (UCLA)
+    </a>
+  </span>
+  <ul class="pub-awards">
+        <li>Dreze Award, UCLA Anderson School of Management, 2022.</li>
+    </ul>
+</li>
+</ol>
 --->
 <hr />
 <p></br></p>
@@ -388,21 +473,6 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
-<script type="text/javascript">
-var sc_project=12553218; 
-var sc_invisible=1; 
-var sc_security="faf7bffb"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="hit counter"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/12553218/0/faf7bffb/1/"
-alt="hit counter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </body>
 </html>
